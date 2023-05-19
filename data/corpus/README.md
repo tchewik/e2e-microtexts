@@ -1,0 +1,1 @@
+This directory contains a copy of the bilingual version of Microtexts corpus from the [original repository](https://github.com/kotelnikov-ev/ArgMicro_Russian). 
