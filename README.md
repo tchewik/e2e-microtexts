@@ -1,6 +1,6 @@
 # End-to-End Argument Mining over Varying Rhetorical Structures
 
-This repository contains the official code and data for the ACL 2023 Findings paper "End-to-End Argument Mining over Varying Rhetorical Structures".
+This repository contains the official code and data for the ACL 2023 Findings paper [End-to-End Argument Mining over Varying Rhetorical Structures](https://aclanthology.org/2023.findings-acl.209).
 
 ## Environment setup 
 
@@ -134,3 +134,17 @@ The script requires the dependencies the evidencegraph virtual environment: `sou
 # e2e evaluation without 'same-arg' relation:
 (py38-evgraph) python utils/latex_report_line.py --model_name models/MODELNAME/MODELNAME_{en|ru|en_aug|ru_aug}
 ```
+
+## Citation
+
+    @inproceedings{chistova-2023-end,
+        title = "End-to-End Argument Mining over Varying Rhetorical Structures",
+        author = "Chistova, Elena",
+        booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+        month = jul,
+        year = "2023",
+        address = "Toronto, Canada",
+        publisher = "Association for Computational Linguistics",
+        url = "https://aclanthology.org/2023.findings-acl.209",
+        pages = "3376--3391",
+    }
